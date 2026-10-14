@@ -1,0 +1,117 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "serialNumber": "urn:uuid:2330914a-1ac4-5d32-b09a-3b3cbfd472c8",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-06T17:15:46Z",
+  "component": {
+   "type": "application",
+   "name": "PVOUTPUT",
+   "version": "83b357604d34",
+   "bom-ref": "pkg:generic/anticloud/PVOUTPUT@83b357604d34",
+   "purl": "pkg:generic/anticloud/PVOUTPUT@83b357604d34",
+   "licenses": [
+    {
+     "license": {
+      "id": "Apache-2.0"
+     }
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "anticloud:source-commit",
+    "value": "null"
+   },
+   {
+    "name": "anticloud:source-url",
+    "value": "https://github.com/the-anticloud/OPENMRS_CORE.git"
+   },
+   {
+    "name": "anticloud:tier",
+    "value": "tier-agent"
+   }
+  ]
+ },
+ "components": [
+  {
+   "type": "library",
+   "name": "conda-forge",
+   "version": "unspecified",
+   "purl": "pkg:generic/conda-forge",
+   "bom-ref": "conda/conda-forge@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "python",
+   "version": "unspecified",
+   "purl": "pkg:generic/python",
+   "bom-ref": "conda/python@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "pytest",
+   "version": "unspecified",
+   "purl": "pkg:generic/pytest",
+   "bom-ref": "conda/pytest@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "pyyaml",
+   "version": "unspecified",
+   "purl": "pkg:generic/pyyaml",
+   "bom-ref": "conda/pyyaml@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "pytables",
+   "version": "unspecified",
+   "purl": "pkg:generic/pytables",
+   "bom-ref": "conda/pytables@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "pandas",
+   "version": "unspecified",
+   "purl": "pkg:generic/pandas",
+   "bom-ref": "conda/pandas@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "matplotlib",
+   "version": "unspecified",
+   "purl": "pkg:generic/matplotlib",
+   "bom-ref": "conda/matplotlib@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "jupyterlab",
+   "version": "unspecified",
+   "purl": "pkg:generic/jupyterlab",
+   "bom-ref": "conda/jupyterlab@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "urllib3",
+   "version": "unspecified",
+   "purl": "pkg:generic/urllib3",
+   "bom-ref": "conda/urllib3@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "requests",
+   "version": "unspecified",
+   "purl": "pkg:generic/requests",
+   "bom-ref": "conda/requests@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "beautifulsoup4",
+   "version": "unspecified",
+   "purl": "pkg:generic/beautifulsoup4",
+   "bom-ref": "conda/beautifulsoup4@unspecified"
+  }
+ ],
+ "sha_unverified": true
+}
